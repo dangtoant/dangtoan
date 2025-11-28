@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hỗ Trợ Khách Hàng</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS riêng cho trang hỗ trợ */
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .chat-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #28a745;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">LUGGAGE SHIP</div>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="booking.html">Đặt dịch vụ</a></li>
+                    <li><a href="support.html" style="color: #ff9800;">Hỗ trợ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title" style="margin-top: 40px;">Trung Tâm Trợ Giúp</h2>
+
+        <div class="card-container">
+            <div class="card" style="text-align: left;">
+                <h3>❓ Câu hỏi thường gặp (FAQ)</h3>
+                
+                <div class="faq-item">
+                    <strong>Q: Thời gian vận chuyển mất bao lâu?</strong>
+                    <p>A: Dịch vụ thường mất 2-3 ngày, dịch vụ Express trong 24h.</p>
+                </div>
+                <div class="faq-item">
+                    <strong>Q: Hành lý bị hỏng được đền bù không?</strong>
+                    <p>A: Chúng tôi đền bù 100% nếu quý khách mua bảo hiểm hàng hóa.</p>
+                </div>
+                <div class="faq-item">
+                    <strong>Q: Làm sao để thay đổi địa chỉ nhận?</strong>
+                    <p>A: Vui lòng liên hệ hotline hoặc chat trực tiếp trước khi hàng được phát.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>⚠️ Gửi Khiếu Nại / Góp Ý</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Mã đơn hàng (nếu có):</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Nội dung:</label>
+                        <textarea rows="5" placeholder="Mô tả vấn đề của bạn..."></textarea>
+                    </div>
+                    <button class="btn-primary">Gửi Yêu Cầu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="chat-button">💬 Chat với chúng tôi</a>
+
+    <footer>
+        <p>&copy; 2025 Luggage Ship Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
